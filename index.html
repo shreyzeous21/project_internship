@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Job Opportunities IN Japan</title>
+    <!-- Tailwind CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <!-- Google Fonts - Open Sans -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Custom CSS -->
+    <link href="styles.css" rel="stylesheet" />
+    <style>
+      /* Additional CSS */
+    </style>
+  </head>
+  <body class="bg-gray-100">
+    <!-- Header -->
+    <header class="bg-blue-500 text-white py-4">
+      <div class="container mx-auto flex justify-between items-center">
+        <h1 class="text-2xl font-bold">Job Opportunities In Japan</h1>
+
+        <div>
+          <button
+            id="langEnBtn"
+            class="mr-2 px-3 py-1 rounded hover:bg-blue-600 focus:outline-none"
+          >
+            English
+          </button>
+          <button
+            id="langJaBtn"
+            class="px-3 py-1 rounded hover:bg-blue-600 focus:outline-none"
+          >
+            日本語
+          </button>
+        </div>
+        <a href="/index1.html" class="hover:underline">Job Search</a>
+      </div>
+    </header>
+
+    <nav class="bg-gray-200 py-2">
+      <div class="container mx-auto flex justify-center">
+        <a href="#home" class="mr-4 hover:underline">Home</a>
+        <a href="#job-listings" class="mr-4 hover:underline">Job Listings</a>
+        <a href="#about-japan" class="hover:underline">About Japan</a>
+      </div>
+    </nav>
+
+    <main>
+      <section id="home" class="py-8">
+        <div class="container mx-auto">
+          <h2 class="text-3xl font-bold mb-4">Job Opportunities</h2>
+          <p class="text-lg mb-4">Explore exciting job opportunities in Japan and start your career journey today. Whether you're a software engineer, marketing specialist, or graphic designer, there are plenty of opportunities waiting for you.</p>
+          <p class="text-lg mb-4">Japan's vibrant economy, renowned technology sector, and diverse industries offer a wide range of job prospects. From multinational corporations to innovative startups, you'll find a variety of companies looking for talented individuals like you.</p>
+          <p class="text-lg">Discover the unique blend of tradition and innovation in Japan's work culture. Experience the professionalism and discipline of Japanese workplaces while embracing the creativity and innovation that drive success in today's competitive market.</p>
+        </div>
+      </section>
+
+      <section id="job-listings" class="py-8 bg-white">
+        <div class="container mx-auto">
+          <h2 class="text-3xl font-bold mb-4">Job Listings</h2>
+
+          <div id="jobList" class="grid gap-4"></div>
+        </div>
+      </section>
+
+      <section id="about-japan" class="py-8">
+        <div class="container mx-auto">
+          <h2 class="text-3xl font-bold mb-4">About Japan</h2>
+          <p class="text-lg mb-4">
+            Japan is a country in East Asia known for its rich cultural
+            heritage, technological innovation, and stunning natural landscapes.
+            From bustling cities like Tokyo and Kyoto to serene countryside
+            villages, Japan offers a unique blend of tradition and modernity.
+          </p>
+          <p class="text-lg">
+            Experience the beauty of cherry blossoms in spring, indulge in
+            delicious sushi and ramen, and immerse yourself in traditional
+            Japanese arts such as tea ceremony and calligraphy. Japan's unique
+            culture, delicious cuisine, and friendly people make it a
+            fascinating destination to explore.
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="bg-gray-800 text-white py-4">
+      <div class="container mx-auto text-center">
+        <p>&copy; 2024 Job Opportunities. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
